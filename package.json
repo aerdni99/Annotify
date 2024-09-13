@@ -1,0 +1,25 @@
+{
+  "name": "annotify",
+  "version": "1.0.0",
+  "description": "Music Annotation App",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerdni99/Annotify.git"
+  },
+  "keywords": [
+    "\"music\"",
+    "\"annotation\"",
+    "\"social",
+    "media\""
+  ],
+  "author": "Angelo Indre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aerdni99/Annotify/issues"
+  },
+  "homepage": "https://github.com/aerdni99/Annotify#readme"
+}
