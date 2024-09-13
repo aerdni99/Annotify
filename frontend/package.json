@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/aerdni99/Annotify/issues"
   },
-  "homepage": "https://github.com/aerdni99/Annotify#readme"
+  "homepage": "https://github.com/aerdni99/Annotify#readme",
+  "dependencies": {
+    "react-native": "^0.72.0"
+  }
 }
