@@ -1,11 +1,12 @@
 version: '3'
 services:
-  react-native:
+  frontend:
     build:
-      context: .
+      context: ./frontend
     volumes:
       - .:/app
     ports:
       - "8081:8081" # Exposing Metro bundler port
     stdin_open: true
     tty: true
+    
