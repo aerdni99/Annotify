@@ -4,7 +4,7 @@ build:
 
 # Start the Docker containers
 up:
-    docker-compose up -d
+    docker-compose up
 
 # Stop the Docker containers
 down:
@@ -14,12 +14,12 @@ down:
 logs:
     docker-compose logs -f
 
-# Run tests or other commands (adjust as needed)
-test:
-    docker-compose run --rm react-native npm test
-
 # Rebuild and restart containers
 rebuild:
     just down
     just build
     just up
+
+# Launch Emulator
+test:
+    docker-compose exec frontend npx react-native run-android

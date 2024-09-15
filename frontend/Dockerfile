@@ -35,8 +35,9 @@ COPY . .
 # Install Project Dependencies
 RUN npm install
 
-# Install SDK Packages
-RUN npm install -g react-native-cli
+RUN pwd
+RUN ls
+RUN ls node_modules
 
 # Expose Port For Metro Bundler
 EXPOSE 8081

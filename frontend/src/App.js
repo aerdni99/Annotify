@@ -5,7 +5,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('./assets/splash-logo.png')} // Add a logo image here later
+        source={require('../assets/splash-logo.png')} // Add a logo image here later
         style={styles.logo}
       />
       <Text style={styles.text}>Welcome to Annotify</Text>
